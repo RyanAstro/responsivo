@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/*======================  home  ===================*/
+body{
+    background-image: url(../img/fundo_site.jpg);
+    padding: 15px;
+}
+
+
+
+#topo{
+    background-color: white;
+    padding: 15px;
+    min-width: 360px;
+}
+
+
+
+#header1{
+    background-image: url(../img/bg_topo.gif);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+
+
+header img{
+    width:113px;
+   
+}
+
+
+
+header div{
+    font-size: small;
+    background-color: rgba(0, 0, 0, 0.589);
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+
+
+
+nav ul{
+    list-style-type: none;
+    margin-bottom: 10px;
+    
+
+}
+
+
+nav ul li a{
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: turquoise;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px;
+    color: rgb(9, 62, 87);
+}
+
+
+
+
+
+a:hover{
+    background-color: rgba(0, 0, 0, 0.616);
+    border-radius: 10px;
+}
+
+
+main{
+    background-color: rgb(5, 5, 75);
+    padding: 10px;
+    
+}
+
+
+
+p{
+    background-color: darkcyan;
+    padding: 10px;
+    margin-top: 10px;
+    font-size:small;
+    text-align: justify;
+}
+
+
+
+footer{
+    background-image: url(../img/bg_rodape.jpg);
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+
+
+h1{
+    background-image: url(../img/bg_topo.gif);
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+/*=================== responsive ========================*/
+@media(min-width:960px){
+    
+   
+    #topo{
+        margin: 20px auto;
+        padding: 20px;
+        max-width: 920px;
+    }
+
+
+    .responsive{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        
+
+
+    }
+    a:hover{
+        padding: 10px;
+        transition: .3s;
+
+    }
+
+
+
+    #header1{
+        height: 180px;
+    }
+
+
+    header div{
+        padding: 20px 50px;
+        font-size: medium;
+        
+    }
+
+
+    img{
+        height: auto;
+        width: 180px;
+    }
+
+
+   
+    nav{
+        min-width:30%;
+        padding: 20px;
+        background-color:rgba(64, 224, 208, 0.384) ;
+        margin-right: 20px; 
+       
+    }
+
+
+    p{
+        padding: 20px;
+        margin-top: 20px;
+
+    }
+
+
+    footer{
+        margin-top: 20px;
+    }
+
+
+    main{
+        padding: 20px;
+        width: 70%;
+    }
+
+
+    
+}
